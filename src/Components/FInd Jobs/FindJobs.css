@@ -1,0 +1,271 @@
+.findjob{
+    padding-top: 8.2vw;
+    width: 100%;
+    height: 55vh;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    .find{
+        background-color:  #E4E5E8;
+        width: 100%;
+        padding: 1.5vw 3vw;
+        display: flex;
+        justify-content: space-between;
+
+        h5{
+            padding-left: 7vw;
+            font-size: 1.1vw;
+            font-weight: 500;
+        }
+        span{
+            color: gray;
+        }
+    }
+    .groupp {
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        left: 10vw;
+        top: 1.5vw;
+        line-height: 28px;
+        align-items: center;
+        position: relative;
+        width: 87%;
+        height: 10vh;
+        border-radius: 8px;
+        border: .5px solid gray;
+
+        .searchs{
+            width: 30%;
+            display: flex;
+            gap: 1vw;
+            padding: 1.5vw 1vw ;
+            margin-left: .5vw;
+            input{
+                width: 100%;
+                font-size: 1.2vw;
+                background-color: transparent;
+                border: none;
+                outline: none;
+            }
+         
+           }
+        
+        .buttons{
+            display: flex;
+            gap: 1vw;
+            padding-right: 1vw;
+
+            button{
+                font-size: 1.2vw;
+                color: white;
+                padding: 1vw  ;
+                border-radius: 8px;
+                border: none;
+                background-color: #5542f6;
+                cursor: pointer;
+            }
+            .but{
+                background-color: #E4E5E8;
+                color: black;
+                display: flex;
+                gap: .5vw;
+            }
+        }
+       
+         
+       
+       }
+
+       .jobsfeatured{
+        /* background-color: red; */
+        width: 100%;
+        padding-left:10vw ;
+        padding-right: 2.7vw ;
+        padding-top: 1.5vw;
+        padding-bottom: 1.5vw;
+        .FJ{
+           
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2vw;
+            width: 100%;
+            margin-top: 2vw;
+            /* height: 120vh; */
+    
+            .fj{
+            
+                background-color: whitesmoke;
+                border-radius:10px;
+                border:  .5px solid gray;
+                width: 31.7%;
+                height: 25vh;
+                display: flex;
+                flex-direction: column;
+                gap: 2.5vw;
+                padding: 1.5vw;
+            
+            }
+            .fjj{
+                
+               display: flex;
+               flex-direction: column;
+               gap: .5vw;
+
+               .google{
+                font-size: 3vw;
+                background-color: white;
+                padding: 5px;
+                color: #5542f6;
+                border-radius: 7px;
+                    
+    
+               }
+               .company{
+                display: flex;
+                flex-direction: column;
+                padding-left: 1.5vw;
+                gap: .3vw;
+               
+               }
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+
+    .findjob{
+        padding-top: 11vw;
+
+        .find{
+         
+            p{
+                font-size: 1.2vw;
+            }
+            .groupp {
+                height: 7vh;
+                width: 44vw;
+                .icon {
+                    position: absolute;
+                   font-size: 1.5vw;
+                  
+                   }
+                   .input{
+                    padding-left: 4.5vw;
+                   
+                   }
+               
+               }
+               .end{
+                font-size: 1.5vw;
+               }
+               .bottom{  
+                gap: 10px;
+            
+                .box p{
+                 line-height: 15px;
+                }
+             }
+        }
+        .FJ{
+
+            .fj{
+            
+                height: 19vh;
+            
+            }
+            .fjj{
+                h3{
+                    font-size: 1.5vw;
+                }
+               h5{
+                font-size: 1vw;
+               }
+               h4{
+                font-size: 1.5vw ;
+               }
+            }
+        }
+    }
+   
+    
+
+
+
+}
+@media (max-width: 390px) {
+ 
+
+    .findjob{
+      
+        padding-top: 13vw;
+        .find{
+         h5{
+            font-size: 1.5vw;
+         }
+            p{
+                font-size: 1.5vw;
+            }
+            
+        }
+        .groupp {
+            /* background-color: red; */
+            height: 2.5vh;
+            width: 87%;
+            
+               .input{
+                padding-left: 4.5vw;
+               
+               }
+           
+           }
+
+         .jobsfeatured{
+            .FJ{
+                gap: 2vw;
+        
+                .fj{
+                    border-radius:5px;
+                    height: 8vh;
+                
+                }
+                .fjj{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1.2vw;
+                    h3{
+                        font-size: 1.4vw;
+                    }
+                   h5{
+                    font-size: .9vw;
+                    
+                   }
+                   h4{
+                    font-size: 1.4vw ;
+                   }
+                   .google{
+                    font-size: 4.5vw;
+                    background-color: white;
+                    padding: 5px;
+                    color: #5542f6;
+                    border-radius: 5px;
+                        
+        
+                   }
+                   .company{
+                    display: flex;
+                    flex-direction: column;
+                    padding-left: 1.5vw;
+                    gap: .5vw;
+                   }
+                
+                }
+            }
+        
+        
+         }
+    }
+   
+
+}

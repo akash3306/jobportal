@@ -1,0 +1,1439 @@
+/* .HomeWrapper{
+   
+} */
+.one{
+    padding-top: 8.2vw;
+    padding-left: 10vw;
+    background-color: #F1F2F4;
+    width: 100%;
+    height: 120vh;
+}
+.content{
+    display: flex;
+    width: 100%;
+}
+.left{
+    width: 60%;
+    padding-top: 4.5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vw;
+}
+.paragraph h1{
+    font-size: 4.2vw;
+    font-weight: 500;
+    line-height: 4.3vw;
+}
+.paragraph p{
+    color: #686e7a;
+    font-size: 1.4vw;
+    padding-top: 1.5vw;
+    line-height:25px;
+}
+.groupp {
+    background-color: white;
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    width: 43vw;
+    height: 10vh;
+    border-radius: 8px;
+    border: .5px solid gray;
+
+    button{
+        font-size: 1.2vw;
+        color: white;
+        padding: 1vw  ;
+        border-radius: 8px;
+        border: none;
+        background-color: #5542f6;
+        cursor: pointer;
+    }
+     
+   
+   }
+   .searchs{
+  
+    display: flex;
+    gap: 1vw;
+    padding: 1.5vw 1vw ;
+    margin-left: .5vw;
+    input{
+        font-size: 1.2vw;
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+ 
+   }
+   
+  .icons {
+   color: #5542f6;
+   font-size: 1.5vw;
+   }
+   
+   .right{
+   
+    width: 40%;
+    padding-top: 4.5vw;
+
+   
+   }
+   .right img{ 
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.bottom{
+
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   padding-top: 2vw;
+   gap: 20px;
+   /* justify-content: center; */
+
+   .box{
+    display: flex;
+    gap: .3vw;
+    align-items: center;
+    background-color: white;
+    padding: 2vw;
+    border-radius: 10px;
+
+    .ico{
+       font-size: 3vw;
+       background-color: whitesmoke;
+       padding: 5px;
+       color: #5542f6;
+       border-radius: 7px;
+
+    }
+    span{
+        
+        font-size: 1vw;
+        color: gray;
+        font-weight: lighter;
+    }
+   }
+   .box p{
+    font-size: 1.5vw;
+    font-weight: bold;
+    padding-left: 1vw;
+    padding-right: 6.5vw;
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+   }
+}
+
+.two{
+   
+    height: 60vh;
+    width: 100%;
+    padding-left: 10vw;
+}
+.vacancies{
+   background-color: white;
+   width: 100%;
+   display: flex;
+}
+.objects{
+
+  width: 25%;
+  padding-top: 2vw;
+  line-height: 2vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vw;
+
+  .subobj h3{
+    font-weight: 500;
+  }
+  .subobj p{
+    color: gray;
+  }
+}
+.three{
+    height: 60vh;
+    width: 100%;
+    padding-left: 10vw;
+    background-color: #F1F2F4;
+}
+.header{
+    display: flex;
+    justify-content: center;
+   
+}
+.CUFA{
+    display: flex;
+    width: 100%;
+    margin-top: 2vw;
+   
+
+
+    img{
+        position: absolute;
+        display: flex;
+        margin-left: 13vw;
+        color: #0A65CC;
+    }
+}
+.cufa{
+  
+    width: 24%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1.5vw;
+
+    .out{
+        font-size: 4vw;
+        color:#5542f6;
+        background-color: white;
+        padding: 1vw;
+        border-radius: 50%;
+
+    
+    }
+}
+
+.four{
+    height: 60vh;
+    width: 100%;
+    padding-left:10vw ;
+    padding-right: 6.5vw ;
+    border-bottom: .5px solid gray;
+
+    .heading{
+        /* background-color: red; */
+        display: flex;
+        justify-content: space-between;
+        padding: 3.5vw 0vw 0vw 0vw ;
+        font-weight: "500";
+
+        .View{
+           border-radius: 5px;
+           width: 7vw;
+           border: none;
+           color: #5542f6;
+           
+        }
+    }
+    .GM{
+
+        display: flex;
+        gap: 5vw;
+        width: 100%;
+        margin-top: 2vw;
+        margin-left: 2vw;
+
+        .gm{
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+            gap: 2.5vw;
+            padding-top: 1.5vw;
+        }
+        .gmm{
+            /* background-color: aquamarine; */
+            display: flex;
+            gap: 2vw;
+             padding: 1vw;
+             .icco{
+
+               font-size: 3vw;
+               background-color: whitesmoke;
+               padding: 5px;
+               color: #5542f6;
+               border-radius: 7px;
+             }
+        }
+    }
+}
+.five{
+    width: 100%;
+    padding-left:10vw ;
+    padding-right: 6.5vw ;
+
+    .heading{
+       
+        display: flex;
+        justify-content: space-between;
+        padding: 3.5vw 0vw 0vw 0vw ;
+        font-weight: "500";
+
+        .View{
+           border-radius: 5px;
+           width: 7vw;
+           border: none;
+           color: #5542f6;
+        }
+    }
+    .FJ{
+     
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        gap: 2vw;
+        width: 100%;
+        margin-top: 2vw;
+        height: 80%;
+
+        .fj{
+        
+            background-color: whitesmoke;
+            border-radius:10px;
+            border:  .5px solid gray;
+            width: 31.7%;
+            height: 25vh;
+            display: flex;
+            flex-direction: column;
+            gap: 2.5vw;
+            padding: 1.5vw;
+        
+        }
+        .fjj{
+           display: flex;
+           flex-direction: column;
+           gap: .5vw;
+
+           .google{
+            font-size: 3vw;
+            background-color: white;
+            padding: 5px;
+            color: #5542f6;
+            border-radius: 7px;
+                
+
+           }
+           .company{
+            display: flex;
+            flex-direction: column;
+            padding-left: 1.5vw;
+            gap: .3vw;
+           
+           }
+        }
+    }
+}
+.fours{
+    height: 75vh;
+    width: 100%;
+    padding-left:10vw ;
+    padding-right: 6.5vw ;
+    border-bottom: .5px solid gray;
+
+    .heading{
+        display: flex;
+        justify-content: space-between;
+        padding: 3.5vw 0vw 0vw 0vw ;
+        font-weight: "500";
+
+        .View{
+           border-radius: 5px;
+           width: 7vw;
+           border: none;
+           color: #5542f6;
+        }
+    }
+    .GM{
+       
+        display: flex;
+        gap: 2vw;
+        width: 100%;
+        margin-top: 2vw;
+        
+
+        .gm{
+          
+            width: 33%;
+            display: flex;
+            flex-direction: column;
+            gap: 2.5vw;
+            padding-top: 1.5vw;
+        }
+        .gmm{
+            padding: 1vw;
+            border: .5px solid gray;
+            border-radius: 5px;
+            display: flex;
+            gap: 2vw;
+
+            .googles{
+                font-size: 4vw;
+                background-color: whitesmoke;
+                padding: 5px;
+                border-radius: 7px;
+             }      
+            
+        }
+    }
+}
+.threes{
+    height: 60vh;
+    width: 100%;
+    padding-left: 10vw;
+    background-color: #F1F2F4;
+
+    .header{
+        display: flex;
+        justify-content: center;
+       
+    }
+    .CUFA{
+        display: flex;
+        gap: 2vw;
+        width: 100%;
+        margin-top: 2vw;
+    }
+    .cufa{
+        background-color: white;
+        border-radius: 10px;
+        width: 30%;
+        height: 35vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 1.5vw;
+
+        .stars{
+            display: flex;
+            gap: 1vw;
+            padding-left: 1.5vw;
+        }
+       .review{
+            height: 4rem;
+            width: 4rem;
+            border-radius: 50%;
+            object-fit: cover;
+               
+    }
+}
+
+}
+.threess{
+    height: 40vh;
+    width: 100%;
+    padding-left: 10vw;
+    padding-right: 5vw;
+    
+    .CUFA{
+        display: flex;
+        gap: 2vw;
+        width: 100%;
+        margin-top: 2vw;
+      
+    }
+    .cufa{
+        background-color: #F1F2F4;
+        border-radius: 10px;
+        width: 50%;
+        height: 30vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* flex-direction: column; */
+        align-items: flex-start;
+        /* padding-top: 2.5vw; */
+        /* padding-left: 2.5vw; */
+       /* gap: 1.5vw; */
+      
+        .cuffa{
+            /* background-color: red; */
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1.5vw;
+             padding-left: 2.5vw;
+             width: 60%;
+             height: 25vh;
+
+             .boton{
+              padding: .7vw;
+              width: 12vw;
+              background-color: white;
+              border: .5px solid gray;
+              border-radius: 5px;
+             
+             }
+        }
+        .cuffaa{
+            width: 40%;
+            height: 25vh;
+
+        }
+      
+}
+
+}
+
+
+
+@media (max-width: 900px) {
+
+    .one{
+        padding-top: 8.2vw;
+        padding-left: 10vw;
+        background-color: #F1F2F4;
+        width: 100%;
+        height: 80vh;
+
+
+        .groupp {
+            height: 7vh;
+            width: 44vw;
+            .icon {
+                position: absolute;
+               font-size: 1.5vw;
+              
+               }
+               .input{
+                padding-left: 4.5vw;
+               
+               }
+           
+           }
+           .end{
+            font-size: 1.5vw;
+           }
+           .bottom{  
+            gap: 10px;
+        
+            .box p{
+             line-height: 15px;
+            }
+         }
+    }
+    .two{
+        height: 50vh;
+    .objects{
+
+        line-height: 3vw;
+
+        .subobj h3{
+            
+            font-size: 1.6vw;
+          }
+          .subobj p{
+            color: gray;
+
+            font-size: 1.4vw;
+          }
+    }
+}
+
+.three{
+    height: 40vh;
+
+
+.CUFA{
+    gap: 2vw;
+
+    img{
+     width: 17vw;
+   
+    }
+   
+}
+.cufa{
+
+    height: 20vh;
+   
+    h3{
+        
+        font-size: 1.5vw;
+    }
+    p{
+        font-size: 1vw;
+    }
+}
+}
+.four{
+    height: 50vh;
+        .View{
+            height: 3vw;
+           width: 7vw;
+           font-size: 1.2vw; 
+           
+        }
+           .gmm{
+           h4{
+            font-size: 1.1vw;
+           }
+          
+        } 
+}
+
+.five{
+  
+       
+        .View{
+            height: 3vw;
+           width: 7vw;
+           font-size: 1.2vw; 
+        }
+    
+    .FJ{
+
+        .fj{
+        
+            height: 19vh;
+        
+        }
+        .fjj{
+            h3{
+                font-size: 1.5vw;
+            }
+           h5{
+            font-size: 1vw;
+           }
+           h4{
+            font-size: 1.5vw ;
+           }
+        }
+    }
+}
+
+.fours{
+    height: 57vh;
+
+        .View{
+            height: 3vw;
+            width: 7vw;
+            font-size: 1.2vw; 
+        }
+    
+        .gmm{
+           
+            h4{
+                font-size: 1.5vw;
+               }
+        }
+
+}
+.threes{
+   height: 45vh;
+   .CUFA{
+
+    .cufa{
+        height: 25vh;
+        p{
+            font-size: 1vw;
+        }
+        .review{
+            height: 2rem;
+            width: 2rem;
+            border-radius: 50%;
+            object-fit: cover;
+               
+        }
+        h4{
+            font-size: 1.2vw;
+        }
+    }
+   }
+}
+.threess{
+    height: 40vh;
+    width: 100%;
+    padding-left: 10vw;
+    padding-right: 5vw;
+
+   
+    .cufa{
+        height: 27vh;
+      h1{
+        font-size: 2vw;
+      }
+      p{
+        font-size: 1.1vw;
+      }
+
+    
+}
+
+}
+
+}
+@media (max-width: 720px) {
+
+    .one{
+        padding-top: 8.2vw;
+        padding-left: 10vw;
+        background-color: #F1F2F4;
+        width: 100%;
+        height: 65vh;
+
+
+        .groupp {
+            height: 4.5vh;
+            width: 44vw;
+            .icon {
+                position: absolute;
+               font-size: 1.5vw;
+              
+               }
+               .input{
+                padding-left: 4.5vw;
+               
+               }
+               .but{
+              padding: .7vw;
+               }
+           
+           }
+           .end{
+            font-size: 1.5vw;
+           }
+           .bottom{  
+            gap: 10px;
+        
+            .box p{
+             line-height: 15px;
+            }
+         }
+    }
+    .two{
+        height: 40vh;
+    .objects{
+
+        line-height: 3vw;
+
+        .subobj h3{
+            font-size: 1.4vw;
+          }
+          .subobj p{
+            color: gray;
+
+            font-size: 1.4vw;
+          }
+    }
+}
+
+.three{
+    height: 40vh;
+
+
+.CUFA{
+    gap: 2vw;
+
+    img{
+     width: 17vw;
+   
+    }
+   
+}
+.cufa{
+
+    height: 20vh;
+   
+    h3{
+        
+        font-size: 1.5vw;
+    }
+    p{
+        font-size: 1vw;
+    }
+}
+}
+.four{
+    height: 35vh;
+        .View{
+            height: 3vw;
+           width: 7vw;
+           font-size: 1.2vw; 
+           
+        }
+           .gmm{
+           h4{
+            font-size: 1.1vw;
+           }
+          
+        } 
+}
+
+.five{
+  
+       
+        .View{
+            height: 3vw;
+           width: 7vw;
+           font-size: 1.2vw; 
+        }
+    
+    .FJ{
+        gap: 1.9vw;
+
+        .fj{
+        
+            height: 15vh;
+        
+        }
+        .fjj{
+            h3{
+                font-size: 1.vw;
+            }
+           h5{
+            font-size: 1vw;
+           }
+           h4{
+            font-size: 1.5vw ;
+           }
+        }
+    }
+}
+
+.fours{
+    height: 50vh;
+
+        .View{
+            height: 3vw;
+            width: 7vw;
+            font-size: 1.2vw; 
+        }
+    
+        .gmm{
+
+           .butt{
+            font-size: 1.5vw;
+           }
+            h4{
+                font-size: 1.6vw;
+               }
+               h5{
+                font-size: 1.5vw;
+               }
+        }
+
+}
+.threes{
+   height: 45vh;
+   .CUFA{
+
+    .cufa{
+        height: 25vh;
+        p{
+            font-size: 1vw;
+        }
+        .review{
+            height: 2rem;
+            width: 2rem;
+            border-radius: 50%;
+            object-fit: cover;
+               
+        }
+        h4{
+            font-size: 1.2vw;
+        }
+    }
+   }
+}
+.threess{
+    height: 25vh;
+    width: 100%;
+    padding-left: 10vw;
+    padding-right: 5vw;
+
+    .CUFA {
+      
+    .cufa{
+        height: 20vh;
+
+        .cuffa{
+            .boton{
+                  font-size: 1.5vw;
+               
+               }
+            h1{
+                font-size: 2vw;
+              }
+              p{
+                font-size: 1vw;
+              }
+            
+        }
+  
+
+   
+}
+}
+}
+
+}
+@media (max-width: 480px) {
+
+    .one{
+        padding-top: 8.2vw;
+        padding-left: 10vw;
+        background-color: #F1F2F4;
+        width: 100%;
+        height: 42vh;
+          
+        .left{
+            /* gap: 1vw; */
+            .paragraph p{
+              
+                line-height: 3vw;
+            }
+        }
+
+        .groupp {
+            height: 3.5vh;
+            width: 44vw;
+            .icon {
+                position: absolute;
+               font-size: 1.5vw;
+              
+               }
+               .input{
+                padding-left: 4.5vw;
+               
+               }
+               .but{
+              padding: .7vw;
+               }
+           
+           }
+           .end{
+            font-size: 1.4vw;
+           }
+           .bottom{  
+            gap: 3px;
+            .box{
+                border-radius: 5px;
+                
+            }
+             .box .ico{
+                font-size: 3.5vw;
+                border-radius: 5px;
+             }
+            .box p{
+
+             line-height: 8px;
+            }
+         }
+    }
+    .two{
+        height: 30vh;
+        .heading{
+            font-size: 2vw;
+        }
+    .objects{
+
+        line-height: 3vw;
+
+        .subobj h3{
+            font-size: 1.4vw;
+          }
+          .subobj p{
+            color: gray;
+
+            font-size: 1.4vw;
+          }
+    }
+}
+
+.three{
+    height: 25vh;
+    .header{
+        font-size: 2vw;
+    }
+
+.CUFA{
+    gap: 2vw;
+
+    img{
+     width: 17vw;
+   
+    }
+   
+}
+.cufa{
+
+
+    height: 13vh;
+   
+    h3{
+        
+        font-size: 1.5vw;
+    }
+    p{
+        font-size: 1vw;
+    }
+}
+}
+.four{
+    height: 25vh;
+    .heading{
+        font-size: 2vw;
+        
+        h1{
+            font-weight: 500;
+        }
+    }
+        .View{
+            height: 3vw;
+           width: 7vw;
+           font-size: 1.2vw; 
+           
+        }
+           .gmm{
+           h4{
+            font-size: 1.1vw;
+           }
+          
+        } 
+}
+
+.five{
+    .heading{
+        font-size: 2vw;
+        h1{
+            font-weight: 500;
+        }
+    }
+       
+        .View{
+            height: 3vw;
+           width: 7vw;
+           font-size: 1.2vw; 
+        }
+    
+    .FJ{
+        gap: 1.9vw;
+
+        .fj{
+        
+            height: 10vh;
+        
+        }
+        .fjj{
+            h3{
+                font-size: 1.4vw;
+            }
+           h5{
+            font-size: .9vw;
+           }
+           h4{
+            font-size: 1.4vw ;
+           }
+        }
+    }
+}
+
+.fours{
+    height: 30vh;
+    .heading{
+        font-size: 2vw;
+
+        h1{
+            font-weight: 500;
+        }
+    }
+        .View{
+            height: 3vw;
+            width: 7vw;
+            font-size: 1.2vw; 
+        }
+    
+        .gmm{
+
+           .butt{
+            font-size: 1.5vw;
+           }
+            h4{
+                font-size: 1.6vw;
+               }
+               h5{
+                font-size: 1.5vw;
+               }
+        }
+
+}
+.threes{
+   height: 30vh;
+   .header{
+    font-size: 2vw;
+
+    h1{
+            font-weight: 500;
+        }
+}
+   .CUFA{
+
+    .cufa{
+        height: 18vh;
+        p{
+            font-size: 1vw;
+        }
+        .review{
+            height: 2rem;
+            width: 2rem;
+            border-radius: 50%;
+            object-fit: cover;
+               
+        }
+        h4{
+            font-size: 1.2vw;
+        }
+    }
+   }
+}
+.threess{
+    height: 20vh;
+    width: 100%;
+    padding-left: 10vw;
+    padding-right: 5vw;
+
+    .CUFA {
+      
+    .cufa{
+        height: 17vh;
+
+        .cuffa{
+            .boton{
+                  font-size: 1.5vw;
+               
+               }
+            h1{
+                font-size: 2vw;
+              }
+              p{
+                font-size: 1vw;
+              }
+            
+        }
+  
+
+   
+}
+}
+}
+
+}
+@media (max-width: 390px) {
+
+    .one{
+        padding-top: 13vw;
+        padding-left: 10vw;
+        background-color: #F1F2F4;
+        width: 100%;
+        height: 31vh;
+          
+        .left{
+            /* gap: 1vw; */
+            .paragraph p{
+              
+                line-height: 3vw;
+            }
+        }
+
+        .groupp {
+            height: 2vh;
+            width: 45vw;
+
+               .icons {
+                color: #5542f6;
+                font-size: 2vw;
+                }
+               .input{
+                padding-left: 4.5vw;
+               
+               }
+               .but{
+              padding: .7vw;
+               }
+           
+           }
+           .end{
+            font-size: 1.4vw;
+           }
+           .bottom{  
+            gap: 3px;
+             
+            .box p{
+
+             line-height: 8px;
+            }
+         }
+         .bottom{
+            
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            padding-top: 0vw;
+            gap: 1vw;
+            /* justify-content: center; */
+         
+            .box{
+             display: flex;
+             align-items: center;
+             background-color: white;
+             /* padding: 1vw; */
+             border-radius: 5px;
+             height: 5vh;
+
+             .ico{
+                font-size: 5vw;
+                border-radius: 3px;
+         
+             }
+            
+            }
+            .box p{
+             display: flex;
+             font-size: 1.5vw;
+             font-weight: bold;
+             padding-left: 1vw;
+             padding-right: 4.5vw;
+             line-height: 8px;
+
+             span{
+                
+                font-size: 1vw;
+                color: gray;
+                font-weight: lighter;
+            }
+            }
+         }
+    }
+    .two{
+        height: 17vh;
+        .heading{
+            font-size: 2vw;
+        }
+    .objects{
+      
+        line-height: 3vw;
+
+        .subobj h3{
+            font-size: 1.4vw;
+          }
+          .subobj p{
+            color: gray;
+            font-size: 1.4vw;
+          }
+    }
+}
+
+.three{
+    height: 17vh;
+    .header{
+        font-size: 2vw;
+    }
+
+.CUFA{
+    gap: 2vw;
+
+    img{
+     width: 17vw;
+   
+    }
+   
+}
+.cufa{
+    height: 9vh;
+   
+    h3{
+        
+        font-size: 1.5vw;
+    }
+    p{
+        font-size: 1vw;
+    }
+}
+}
+.four{
+    height: 18vh;
+    .heading{
+        font-size: 2vw;
+        
+        h1{
+            font-weight: 500;
+        }
+    }
+        .View{
+           
+            height: 3vw;
+           width: 7vw;
+           font-size: 1.2vw; 
+           
+        }
+          .GM {
+            .gm{
+              
+               
+                .gmm{
+                    .icco{
+        
+                        font-size: 5vw;
+                       
+                        padding: 5px;
+                        color: #5542f6;
+                        border-radius: 5px;
+                      }
+                   h4{
+                    font-size: 1.1vw;
+                   }
+                  
+                  
+                } 
+            }
+
+          } 
+}
+
+.five{
+    .heading{
+        font-size: 2vw;
+        h1{
+            font-weight: 500;
+        }
+    }
+       
+        .View{
+            height: 3vw;
+           width: 7vw;
+           font-size: 1.2vw; 
+        }
+    
+    .FJ{
+        gap: 2vw;
+
+        .fj{
+            border-radius:5px;
+            height: 8vh;
+        
+        }
+        .fjj{
+            display: flex;
+            flex-direction: column;
+            gap: 1.2vw;
+            h3{
+                font-size: 1.4vw;
+            }
+           h5{
+            font-size: .9vw;
+            
+           }
+           h4{
+            font-size: 1.4vw ;
+           }
+           .google{
+            font-size: 4.5vw;
+            background-color: white;
+            padding: 5px;
+            color: #5542f6;
+            border-radius: 5px;
+                
+
+           }
+           .company{
+            display: flex;
+            flex-direction: column;
+            padding-left: 1.5vw;
+            gap: .5vw;
+           }
+        
+        }
+    }
+}
+
+.fours{
+    height: 20vh;
+    .heading{
+        font-size: 2vw;
+
+        h1{
+            font-weight: 500;
+        }
+    }
+        .View{
+            height: 3vw;
+            width: 7vw;
+            font-size: 1.2vw; 
+        }
+    
+       .GM .gmm{
+           
+           .butt{
+            font-size: 1.3vw;
+           }
+            h4{
+                font-size: 1.5vw;
+               }
+               h5{
+                font-size: 1.4vw;
+               }
+               .googles{
+                font-size: 6vw;
+                padding: 5px;
+                border-radius: 5px;
+             }
+        }
+
+}
+.threes{
+   height: 20vh;
+   .header{
+    font-size: 2vw;
+
+    h1{
+            font-weight: 500;
+        }
+}
+   .CUFA{
+
+    .cufa{
+        height: 12vh;
+        p{
+            font-size: 1vw;
+        }
+        .review{
+            height: 2rem;
+            width: 2rem;
+            border-radius: 50%;
+            object-fit: cover;
+               
+        }
+        h4{
+            font-size: 1.2vw;
+        }
+    }
+   }
+}
+.threess{
+    height: 14vh;
+    width: 100%;
+    padding-left: 10vw;
+    padding-right: 5vw;
+
+    .CUFA {
+      
+    .cufa{
+        height: 12vh;
+
+        .cuffa{
+            .boton{
+                  font-size: 1.5vw;
+               
+               }
+            h1{
+                font-size: 2vw;
+              }
+              p{
+                font-size: 1vw;
+              }
+            
+        }
+  
+
+   
+}
+}
+}
+
+}

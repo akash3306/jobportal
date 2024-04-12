@@ -1,0 +1,36 @@
+.dashboard{
+    padding-top: 8.2vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+    .dash{
+        background-color:  #E4E5E8;
+        width: 100%;
+        padding: 1.5vw 3vw;
+        display: flex;
+        justify-content: space-between;
+
+        h5{
+            padding-left: 7vw;
+            font-size: 1.1vw;
+            font-weight: 500;
+        }
+        p{
+            font-size: 1.1vw;
+        }
+        span{
+            color: gray;
+        }
+    }
+    .dashs{
+    
+    width: 80vw;
+    height: 70vh;
+    display: flex;
+    border: .5px solid gray;
+    }
+
+
+}

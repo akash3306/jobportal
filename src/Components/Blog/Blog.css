@@ -1,0 +1,165 @@
+.Blog{
+    padding-top: 8.2vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .blog{
+        background-color:  #E4E5E8;
+        width: 100%;
+        padding: 1.5vw 3vw;
+        display: flex;
+        justify-content: space-between;
+
+        h5{
+            padding-left: 7vw;
+            font-size: 1.1vw;
+            font-weight: 500;
+        }
+        p{
+            font-size: 1.1vw;
+        }  
+          
+    }
+    .blogs{
+        width: 100%;
+       
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+        padding-left: 10vw;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        .items{
+           
+           background-color: white;
+           border: .5px solid gray;
+           border-radius: 1vw;
+           width: 80%;
+           height: 50vh;
+           display: flex;
+           gap: 1vw;
+            padding: 1.5vw 1.5vw;
+           .image{
+            width: 40%;
+            height: 40vh;
+
+            img{
+                border-radius: 1vw;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+           }
+
+           .sayings{
+            width: 60%;
+            height: 40vh;
+            border-radius: 1vw;
+            padding: 2vw;
+            display: flex;
+            flex-direction: column;
+            gap: 1vw;
+
+            h3{
+                line-height: 1.5vw;
+            }
+            p{
+                line-height: 1.5vw;
+            }
+            button{
+                width: 30%;
+                padding: .6vw;
+                border-radius: 1vw;
+                border: none;
+                background-color: #5542f6;
+                color: white;
+                cursor: pointer;
+            }
+           }
+        }
+    }
+}
+
+
+@media (max-width: 390px) {
+
+    .Blog{
+        padding-top: 13vw;
+      
+    
+        .blog{
+        
+    
+            h5{
+                padding-left: 7vw;
+                font-size: 1.5vw;
+                font-weight: 500;
+            }
+            p{
+                font-size: 1.5vw;
+            }  
+              
+        }
+        .blogs{
+            width: 100%;
+       
+            display: flex;
+            flex-direction: column;
+            gap: 3vw;
+            padding-left: 10vw;
+            padding-top: 3vw;
+            padding-bottom: 2vw;
+            .items{
+               
+               background-color: white;
+               border: .5px solid gray;
+               border-radius: 1vw;
+               width: 99%;
+               height: 18vh;
+               display: flex;
+               gap: 1vw;
+                padding: 1.5vw 1.5vw;
+               .image{
+                width: 40%;
+                height: 16vh;
+    
+                img{
+                    border-radius: 1vw;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+               }
+    
+               .sayings{
+                /* background-color: red; */
+                width: 60%;
+                height: 20vh;
+                border-radius: 1vw;
+                padding: 2vw;
+                display: flex;
+                flex-direction: column;
+                gap: 1vw;
+    
+                h3{
+                    font-size: 2.1vw;
+                    line-height: 12px;
+                }
+                p{
+                    font-size: 1.5vw;
+                    line-height: 15px;
+                }
+                button{
+                    font-size: 2vw;
+                    width: 40%;
+                    padding: 1vw;
+                    border-radius: .5vw;
+                   
+                }
+               }
+            }
+        }
+    }
+
+}

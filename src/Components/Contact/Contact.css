@@ -1,0 +1,313 @@
+.Contact{
+    padding-top: 8.2vw;
+    width: 100%;
+    /* height: 150vh; */
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+ 
+    .cc{
+        display: flex;
+        flex-direction: column;
+        gap: 5vw;
+    }
+    .ccc{
+        width: 100%;
+        background-color: black;
+        height: 15vh;
+        display: flex;
+        padding-left: 8.2vw;
+
+        .lefty{
+            padding: 2.5vw;
+            display: flex;
+            gap: 1vw;
+            width: 50%;
+
+
+            input{
+                padding: 1.2vw;
+                width: 100%;
+                border: .3px solid white;
+                border-radius: 5px;
+                color: white;
+
+                background-color: black;
+
+                
+            }
+            button{
+                display: flex;
+                align-items: center;
+                padding: 1.2vw;
+                border: none;
+                border-radius: 5px;
+                color: white;
+                background-color: #5542f6;
+                cursor: pointer;
+            }
+        }
+        .bottoms{
+         
+            width: 100%;
+            display: flex;
+            gap: 5.4vw;
+            align-items: center;
+            justify-content: center;
+
+            .boxx{
+               
+               display: flex;
+               gap: 1.5vw;
+
+               p{
+                color: white;
+                line-height: 1.5vw;
+               }
+            }
+        }
+    }
+
+    .contact{
+        background-color:  #E4E5E8;
+        width: 100%;
+        padding: 1.5vw 3vw;
+        display: flex;
+        justify-content: space-between;
+
+        h5{
+            padding-left: 7vw;
+            font-size: 1.1vw;
+            font-weight: 500;
+        }
+        p{
+            font-size: 1.1vw;
+        }
+        span{
+            color: gray;
+        }
+    }
+    .contacts{
+  
+        width: 100%;
+        height: 50vh;
+        display: flex;
+    
+        .paragraphs{
+            /* background-color: blue; */
+            padding-top: 2vw;
+            width: 60%;
+            padding-left: 10vw;
+            display: flex;
+            flex-direction: column;
+            gap: 1vw;
+    
+            h1{
+                font-size: 3vw;
+                font-weight: 500;
+                line-height: 3.5vw;
+            }
+             p{
+                color: #686e7a;
+                padding-top: 1vw;
+                line-height:25px;
+            }
+            span{
+                color: #5542f6;
+            }
+        }
+
+            .forms{
+                width: 40%;
+                /* background-color: red; */
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-top: 1vw;
+               
+                form{
+                    width: 80%;
+                    height: 50vh;
+                    background-color: whitesmoke;
+                    padding: 1.5vw;
+                    border-radius: 1vw;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1vw;
+                    h3{
+                        padding-bottom: .5vw ;
+                    }
+                    input{
+                        padding: .8vw;
+                        width: 100%;
+                        border-radius: 5px;
+                        border: .5px solid gray;
+                    }
+                    .inputs{
+                        display: flex;
+                        gap: 1vw;
+                      
+                    }
+                    .message{
+                       
+                        display: flex;
+                        flex-direction: column;
+                        gap: 1vw;
+
+                        .msg{
+                         height: 6vw;
+                         padding-bottom: 4.5vw;
+                       
+                        }
+                    }
+                 button{
+                    width: 100%;
+                    padding: .5vw;
+                    border-radius: 5px;
+                    display: flex;
+                    justify-content: center;
+                    gap: .5vw;
+                    color: white;
+                    background-color: #5542f6;
+                    border: 1px solid gray;
+                    cursor: pointer;
+                 }
+                }
+            }
+        }
+        .map{
+         
+            width: 100%;
+            border: none;
+            /* background-color: black; */
+            height: 70vh;
+        }
+}
+
+    
+@media (max-width: 390px) {
+
+    .Contact{
+        padding-top: 13vw;
+       
+        .cc{
+            display: flex;
+            flex-direction: column;
+            gap: 5vw;
+          
+
+        }
+        .ccc{
+          display: none;
+        }
+    
+        .contact{
+            background-color:  #E4E5E8;
+            width: 100%;
+            padding: 1.5vw 3vw;
+            display: flex;
+            justify-content: space-between;
+    
+            h5{
+                padding-left: 7vw;
+                font-size: 1.5vw;
+                font-weight: 500;
+            }
+            p{
+                font-size: 1.5vw;
+            }
+            span{
+                color: gray;
+            }
+        }
+        .contacts{
+         /* background-color: blue; */
+            width: 100%;
+            height: 18vh;
+            display: flex;
+        
+            .paragraphs{
+             
+                padding-top: 2vw;
+                width: 60%;
+                padding-left: 10vw;
+                display: flex;
+                flex-direction: column;
+                gap: 1vw;
+        
+                h1{
+                    font-size: 3vw;
+                    font-weight: 500;
+                    line-height: 3.5vw;
+                }
+                 p{
+                    font-size: 2vw;
+                    color: #686e7a;
+                    padding-top: 1vw;
+                    line-height:15px;
+                }
+                span{
+                    font-size: 2vw;
+                    color: #5542f6;
+                }
+            }
+    
+                .forms{
+                    width: 40%;
+                    /* background-color: red; */
+                    
+                   
+                    form{
+                        width: 100%;
+                        background-color: whitesmoke;
+                        padding: .5vw;
+                        border-radius: .5vw;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 2.5vw;
+                        h3{
+                           font-size: 3vw;
+                        }
+                        input{
+                          
+                            padding: 0vw;
+                            width: 100%;
+                            border-radius: 2px;
+                            border: .5px solid gray;
+   
+                        }
+                        input::placeholder {
+                            font-size: 2vw;
+                            padding-left: 1vw;
+                            
+                          }
+                        .inputs{
+                            display: flex;
+                            gap: 1vw;
+                          
+                        }
+                        .message{
+                           
+                            display: flex;
+                            flex-direction: column;
+                            gap: 2vw;
+    
+                            .msg{
+                             height: 6vw;
+                             padding-bottom: 4.5vw;
+                           
+                            }
+                        }
+                     button{
+                        border-radius: 2px;
+                        font-size: 2vw;
+                     }
+                    }
+                }
+            }
+            .map{
+                height: 20vh;
+            }
+    }
+
+}

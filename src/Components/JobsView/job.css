@@ -1,0 +1,127 @@
+.jov_vieW_WRAPPER{
+    padding: 10% 10% 5% 10%;
+    height: 100%;
+    min-height: 100vh;
+    width: 100vw;
+}
+.job_description{
+    height: 90%;
+    width: 100%;
+}
+.conpany_logo_section{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+/* .company_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      
+} */
+.company_logo{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    img{
+        height: 100%;
+    }
+    span{
+     display: flex;
+     align-items: center;
+     width: 100%;
+     flex-direction: row;
+     justify-content: center;
+
+    }
+
+}
+
+.company_name_ h2,.company_name_ p{
+  font-size: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap:20px;
+padding-top: 5px;
+  
+  .span_tag{
+    text-align: center;
+    background: rgb(25, 219, 25);
+    font-size: 8px;
+    width: 50%;
+    color:#fff;
+    padding: 2px;
+    border-radius: 3px;
+
+  }
+}
+.apply_button{
+    padding: 15px;
+    background-color: rgb(0, 191, 255);
+    /* height: 40px; */
+    color: #fff;
+    width: 110px;
+    /* text-align: center; */
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.job_description_view{
+    /* background-color: red; */
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+     gap: 30px;
+    
+    .main_description{
+        width: 90%;
+        line-height: 25px;
+        
+    }
+    .over_view_section{
+        /* background-color: aquamarine; */
+        width: 500px;
+        height: 100%;
+        display: flex;
+        padding: 15px;
+        border-radius: 8px;
+        border: 1px solid #0000003a;
+        
+        .overview_box{
+            display: flex;
+            flex-direction: row;
+            gap: 80px;
+            align-items: center;
+            
+
+        }
+    }
+}
+
+.related_job_views{
+    padding-top: 20px;
+/* background-color: red; */
+    .FJ{
+        /* background-color: red; */
+        display: flex;
+        gap:18px;
+        padding-top: 20px;
+
+        .fj{
+            border: 1px solid #12121231;
+            border-radius: 8px;
+            padding: 10px;
+            width: 200px;
+            min-width: 300px;
+        }
+
+    }
+}

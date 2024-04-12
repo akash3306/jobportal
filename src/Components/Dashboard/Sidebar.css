@@ -1,0 +1,206 @@
+.Sidebarwrapper{
+    position: relative;
+    height: 100%;  
+    font-size: 20px;
+    line-height: 55px;
+    width: calc(165px + 2vw);
+    background-color: #5542f6;
+    padding-left: 20px;
+
+    a{
+      color: white;
+   }
+   a:hover{
+      color: white;
+   }
+   
+ }
+.links {
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   li {
+      list-style-type: none;
+      margin-top: -20px;
+      
+    }
+}
+/* profile css */
+.profile{
+   /* background-color: red; */
+   width: 90%;
+
+   .upper{
+      /* background-color: blue; */
+      width: 100%;
+      height: 10vw;
+      display: flex;
+      padding-left: 5vw;
+      gap: 3vw;
+
+      .image{
+         padding-top: 1vw;
+         background-color: white;
+         width: 15%;
+         height: 100%;
+
+         img{
+            width: 100%;
+            height:100%;
+            object-fit:cover;        
+         }
+      }
+      .button{
+        display: flex;
+        align-items: center;
+        gap: 1.5vw;
+    
+         button{
+            padding: .5vw;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            background-color: #5542f6;
+            color: white;
+         }
+      }
+   }
+   form{
+      width: 100%;
+      margin-top: 1.5vw;
+      padding-left: 5vw;
+      /* background-color: black; */
+
+      .inputs{
+         display: flex;
+         flex-direction: column;
+         width: 43%;
+         gap: 1.2vw;
+         input{
+            padding: .5vw;
+         }
+      }
+      button{
+         padding: .6vw;
+         display: flex;
+          margin-top: .8vw;
+          cursor: pointer;
+          border-radius: 5px;
+          border: none;
+          background-color: #5542f6;
+          color: white;
+      }
+   }
+}
+
+/* Info */
+
+.info{
+   width: 90%;
+   form{
+      display: flex;
+      flex-direction: column;
+      padding-left: 5vw;
+      padding-top: 1vw;
+      gap: 1vw;
+      .inputs{
+         display: flex;
+         flex-direction: column;
+         width: 43%;
+         gap: 1vw;
+         input{
+            padding: .5vw;
+         }
+         select{
+            padding: .5vw;
+         }
+         textarea{
+            padding: .5vw;
+         }
+      }
+      button{
+         padding: .6vw;
+         display: flex;
+          margin-top: .8vw;
+          cursor: pointer;
+          border-radius: 5px;
+          border: none;
+          background-color: #5542f6;
+          color: white;
+          width: 12%;
+      }
+   }
+}
+/* 
+social */
+.social{
+   width: 90%;
+  
+   form{
+      display: flex;
+      flex-direction: column;
+      padding-left: 5vw;
+      padding-top: 1vw;
+      gap: 1vw;
+      .inputs{
+         display: flex;
+         flex-direction: column;
+         width: 43%;
+         gap: 1vw;
+         input{
+            padding: .5vw;
+         }
+         select{
+            padding: .5vw;
+         }
+         textarea{
+            padding: .5vw;
+         }
+      }
+      button{
+         padding: .6vw;
+         display: flex;
+          margin-top: .8vw;
+          cursor: pointer;
+          border-radius: 5px;
+          border: none;
+          background-color: #5542f6;
+          color: white;
+          width: 12%;
+      }
+   }
+}
+
+/* change password */
+.change{
+   width: 90%;
+   /* background-color: red; */
+
+   form{
+      display: flex;
+      flex-direction: column;
+      padding-left: 5vw;
+      padding-top: 1.5vw;
+      gap: 1vw;
+      .inputs{
+         display: flex;
+         flex-direction: column;
+         width: 43%;
+         gap: 1vw;
+         input{
+            padding: .5vw;
+         }
+      }
+      button{
+         padding: .6vw;
+         display: flex;
+          margin-top: .8vw;
+          cursor: pointer;
+          border-radius: 5px;
+          border: none;
+          background-color: #5542f6;
+          color: white;
+          width: 12%;
+      }
+   }
+}
